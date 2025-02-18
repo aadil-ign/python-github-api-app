@@ -18,5 +18,6 @@
         "REPO_NAME":"XXXXXXXXXXXXXX"
       }
     ],
-    "REQUEST_TIME_INTERVAL":0.01
+    "REQUEST_TIME_INTERVAL":0.01,
+    "RAW_DATA_PATH":"./raw_data"
 }
