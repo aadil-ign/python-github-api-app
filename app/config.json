@@ -1,0 +1,23 @@
+{
+    "GITHUB_API_TOKEN":"XXXXXXXXXXXXXXXXXXXXXXX",
+    "REPO_DETAILS":[
+      {
+        "REPO_OWNER":"XXXXXXXXXXXXXX",
+        "REPO_NAME":"XXXXXXXXXXXXXX"
+      },
+      {
+        "REPO_OWNER":"XXXXXXXXXXXXXX",
+        "REPO_NAME":"XXXXXXXXXXXXXX"
+      },
+      {
+        "REPO_OWNER":"XXXXXXXXXXXXXX",
+        "REPO_NAME":"XXXXXXXXXXXXXX"
+      },
+      {
+        "REPO_OWNER":"XXXXXXXXXXXXXX",
+        "REPO_NAME":"XXXXXXXXXXXXXX"
+      }
+    ],
+    "REQUEST_TIME_INTERVAL":0.01,
+    "RAW_DATA_PATH":"./raw_data"
+}
