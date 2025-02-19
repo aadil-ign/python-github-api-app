@@ -3,7 +3,6 @@
 ## Techstack
 * Python
 
-## Setup and Installation
 
 ## Setup and Installation
 1. Generate a GitHub API Token.
