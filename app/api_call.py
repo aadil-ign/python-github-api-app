@@ -1,11 +1,9 @@
-import os 
 import requests
 import time
-import json
 
 from app.api_handler import FileMananger
 
-
+fm = FileMananger()
 
 class GitHubAPI:
     def __init__(self, config):
@@ -50,5 +48,5 @@ class GitHubAPI:
         response = self.request_api(first_pr_page)
         
         print(f"number of PRs: {len(response)}")
-        return FileMananger.write_to_file(response,self.config['RAW_DATA_PATH'],"updated_pr_data",'json')
+        return fm.write_to_file(response,self.config['RAW_DATA_PATH'],"updated_pr_data",'json')
     
